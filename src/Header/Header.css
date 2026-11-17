@@ -1,0 +1,32 @@
+.header {
+    background-color: #171717;
+    color: white;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    padding: 25px 50px;
+
+    border-bottom: 3px solid black;
+}
+
+.header h2 {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.header nav {
+    display: flex;
+    gap: 30px;
+}
+
+.header a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.header a:hover {
+    color: #c62828;
+}
